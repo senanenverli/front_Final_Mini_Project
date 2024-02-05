@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'K2D', sans-serif;
+}
+header{
+    nav{
+        position: absolute;
+        top: 50px;
+        
+        #nav-bar-search{
+           background-color: transparent !important;
+           &::placeholder{
+            color: white;
+           }
+        }
+    }
+}
+.fa-magnifying-glass{
+    color: rgba(65, 58, 58, 0.601) !important;
+}
+
+.parallax-mirror{
+    background-image: url("https://cdn.wallpapersafari.com/52/77/VEYT2s.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.text-Contact{
+    a{
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
+.address-Stores{
+    border-bottom: 1px solid #868e9656;
+}
+.contact-Inputs{
+    input{
+        border-bottom: 1px solid black;
+        background-color: transparent;
+        outline: none;
+    }
+}
+.contact-InputsEmail {
+    input{
+        border-bottom: 1px solid black;
+        background-color: transparent;
+        outline: none;
+    }
+}
+#message{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.getinTouch-icons {
+    i{
+        &:hover{
+            cursor: pointer;
+            color: #705c1bcc;
+        }
+    }
+}
+.sendBtn{
+    border: 2px solid #bcac76;
+    color:#bcac76;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover{
+        color: black;
+        background-color: #705c1bcc;
+    }
+}

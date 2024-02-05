@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-div {
+  display: flex;
+  width: 190px !important;
+  height: 97px !important;
+}
+
+.slick-active {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 9px !important;
+  color: #c5a950;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #c5a950;
+}/*# sourceMappingURL=about.css.map */

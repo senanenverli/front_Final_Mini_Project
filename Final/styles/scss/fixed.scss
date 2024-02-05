@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax-mirror{
+    background-image: url("https://demo.bootstrapious.com/varkala/1-2-1/img/photo/chris-murray-YGzEX5yLKeA-unsplash.jpg");
+    min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+
+ .masonry-img{
+    width: 400px;
+    padding: 20px;
+    img {
+        width: 500px;
+        object-fit: contain;
+        border-radius: 15px;
+     }
+ }
+ 
+ .slide-posts{
+    a{
+        &:hover{
+            color: black;
+            transition: 0.2s;
+        }
+    }
+ }
+ .text-Blog{
+    a{
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+ }
+
+ .mansory-layout{
+    width: 100%;
+    height: 150vh;
+ }
+ .element{
+    width: 306px;
+    height: 204px;
+    margin-top: 70px;
+ }
+ .elementSpecial{
+    width: 306px;
+    height: 400px;
+    margin-top: 70px;  
+    img{
+
+        width: 100%;
+       height: 350px;
+       object-fit: cover;
+    }
+ }
+
+ .cart-body {
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+ }

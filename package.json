@@ -1,0 +1,16 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss:watch": "styles/scss/main.scss styles/css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jolty": "^0.4.3",
+    "sass": "^1.68.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

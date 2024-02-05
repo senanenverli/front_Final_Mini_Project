@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "K2D", sans-serif;
+}
+
+.firstSlick {
+  background-color: transparent;
+}
+.firstSlick img {
+  top: 0;
+  left: 0;
+}
+
+.firstSlickContainer {
+  background-image: url(/Images/graphbig.png);
+  background-repeat: no-repeat;
+  background-position: -110px -110px;
+}
+
+.sliderContentDiv {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderSection {
+  display: flex !important;
+}
+
+.startShoppingBtn {
+  border: 1px solid #bcac76;
+  color: #bcac76;
+  letter-spacing: 3px;
+  background-color: transparent;
+}
+.startShoppingBtn:hover {
+  color: black;
+  background-color: #b8a050;
+  transition: 0.5s;
+}
+
+.rightSide {
+  background-image: url(/Images/graph.lightblue.png);
+}
+
+.rightSide2 {
+  background-image: url(/Images/graph.pink.png);
+}
+
+.rightSide3 {
+  background-image: url(/Images/graph.gold.png);
+}
+
+.myMiddleContainer {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.sideLeft, .sideRight {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.sideLeft:hover, .sideRight:hover {
+  transform: scale(1.1);
+}
+
+.DealofTheWeek-section {
+  background-color: #ebf7ff;
+  background-image: url(/Images/graph.blue.png);
+  background-repeat: no-repeat;
+  background-position: -150px 100px;
+}
+
+.newArrivalSection {
+  background-image: url(/Images/graph.png);
+  background-repeat: no-repeat;
+  background-position: 115% 500px;
+}
+
+.saleShopBtn button {
+  border: 1px solid black;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.saleShopBtn button:hover {
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.productscategoryLink a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.allProductLink:hover {
+  text-decoration: underline;
+  color: rgba(144, 118, 33, 0.7843137255);
+}
+
+.addToCard-section {
+  background-color: rgba(255, 255, 255, 0.784);
+  margin-top: 332px;
+  width: 255px !important;
+  text-align: center;
+  font-size: 14px;
+  overflow: hidden;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.lastContainer {
+  background-color: rgba(184, 160, 80, 0.3607843137);
+  background-image: url(/Images/graph.SummerSale1.png);
+  background-repeat: no-repeat;
+  background-position: -240px -170px;
+}
+
+.summerSaleBtn {
+  border: 1px solid black;
+  background-color: transparent;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.summerSaleBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.summerSaleProductImg {
+  right: 190px;
+  margin-bottom: 100px;
+}
+
+header nav {
+  position: absolute;
+  top: 50px;
+}
+header nav #nav-bar-search {
+  background-color: transparent !important;
+}
+header nav #nav-bar-search::-moz-placeholder {
+  color: #868e96;
+}
+header nav #nav-bar-search::placeholder {
+  color: #868e96;
+}
+
+#js-clock {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.box {
+  margin: 0 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.box span {
+  display: block;
+  background: rgba(255, 255, 255, 0.05);
+  font-family: "Share Tech Mono", monospace;
+  margin-bottom: 10px;
+}
+
+.box span {
+  width: 100px;
+  line-height: 50px;
+  font-size: 24px;
+}/*# sourceMappingURL=index.css.map */
